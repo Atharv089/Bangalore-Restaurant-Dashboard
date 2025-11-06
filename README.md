@@ -1,5 +1,3 @@
-
-
 # 📊 Bangalore Restaurant Data Analysis Dashboard (Zomato Dataset)
 
 This project presents an interactive **Power BI dashboard** built using the **Zomato Bangalore Restaurants Dataset** from Kaggle.  
@@ -22,7 +20,7 @@ The primary goal of this project is to analyze restaurant data and extract actio
 | Tool / Language | Purpose |
 |-----------------|----------|
 | **Power BI** | Data visualization, dashboard creation, and DAX measures |
-| **Python (Pandas)** | Data cleaning and preprocessing (optional) |
+| **Python (Pandas)** | Data cleaning and preprocessing |
 | **Excel/CSV** | Raw data format |
 | **GitHub** | Version control and portfolio hosting |
 
@@ -40,5 +38,4 @@ Total Areas = DISTINCTCOUNT(BangaloreZomatoData_Cleaned[Area])
 Average Cost = AVERAGE(BangaloreZomatoData_Cleaned[AverageCost])
 
 Average Delivery Rating = AVERAGE(BangaloreZomatoData_Cleaned[Delivery Ratings])
-
 

@@ -1,5 +1,3 @@
-# Bangalore-Restaurant-Dashboard
-Interactive Power BI dashboard analyzing Zomato Bangalore restaurant data — includes insights on cuisines, ratings, cost, and delivery trends.
 
 
 # 📊 Bangalore Restaurant Data Analysis Dashboard (Zomato Dataset)
@@ -43,8 +41,4 @@ Average Cost = AVERAGE(BangaloreZomatoData_Cleaned[AverageCost])
 
 Average Delivery Rating = AVERAGE(BangaloreZomatoData_Cleaned[Delivery Ratings])
 
-Top Rated Restaurants =
-    CALCULATE(
-        [Total Restaurants],
-        BangaloreZomatoData_Cleaned[Delivery Ratings] > 4.2
-    )
+
